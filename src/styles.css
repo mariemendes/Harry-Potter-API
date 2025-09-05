@@ -1,0 +1,59 @@
+.spells-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: beige;
+  color: black;
+  padding: 30px 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+}
+.modal img {
+  max-height: 300px;
+}
+.modal p {
+  text-align: start;
+}
+
+.spell-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.header {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+.header li {
+  cursor: pointer;
+}
+.span {
+  font-weight: bold;
+}
