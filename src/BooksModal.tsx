@@ -1,4 +1,4 @@
-import React, { useEffect, useState} from 'react'
+import { useEffect, useState} from 'react'
 import Modal from './components/modal';
 import { getBookByIndex } from "./services/Api";
 import type { Books, ModalType } from "./types";

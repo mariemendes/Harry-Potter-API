@@ -1,4 +1,4 @@
-import React, { useEffect, useState} from 'react'
+import { useEffect, useState} from 'react'
 import List from './components/list';
 import Button from './components/button';
 import SpellsModal from './SpellsModal';
